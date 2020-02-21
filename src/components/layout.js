@@ -10,10 +10,11 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import Image from "../components/image"
+import Footer from './footer'
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, image }) => {
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -27,6 +28,18 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
+      {
+        image != undefined ? <div style={{
+          backgroundImage: `url("${image}")`,
+          backgrounPosition: 'top center',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          backgroundAttachment: 'fixed',
+          backgroundPositionY: '80%',
+          height: 600,
+        }}>
+        </div> : <div></div>
+      }
       <div
         style={{
           margin: `0 auto`,
@@ -35,10 +48,8 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()} innerPolish.pl
-        </footer>
       </div>
+      <Footer />
     </>
   )
 }
