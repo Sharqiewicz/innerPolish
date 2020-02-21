@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `InnerPolish`,
     description: `Learn how to speak Polish properly`,
-    author: `@gatsbyjs`,
+    author: `@sharqiewicz`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

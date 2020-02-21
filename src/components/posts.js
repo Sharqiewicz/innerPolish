@@ -21,7 +21,7 @@ const Posts = () => {
     ))
 
     return (
-        <div>
+        <div style={{ maxWidth: 960, display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
             {showposts}
         </div>
 

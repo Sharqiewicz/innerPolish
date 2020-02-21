@@ -4,14 +4,14 @@ const Post = (props) => {
     console.log(props)
     const link = `http://www.youtube.com/embed/${props.videoid}`;
     return (
-        <div key={props.title}>
+        <div key={props.title} style={{ maxWidth: 430 }}>
             <h3>{props.title}</h3>
             <h5>{props.language}</h5>
             <iframe type="text/html"
-                width="640"
-                height="385"
+                width="430"
+                height="245"
                 src={link}
-                frameborder="1">
+                frameborder="0">
             </iframe>
         </div>
     )
