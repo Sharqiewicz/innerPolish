@@ -12,7 +12,6 @@ header {
 
     a{
     margin: 0 10px;
-    color: white;
     font-size: 24px;
     transition: 0.3s;
 
@@ -21,4 +20,17 @@ header {
         cursor: pointer;
     }
 }
+}
+
+main{
+    padding: 5vh 0 0 0;
+
+    a{
+        div:hover{
+            transform: translateY(-5%);
+        }
+        div{
+            transition: 0.3s;
+        }
+    }
 }

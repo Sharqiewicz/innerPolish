@@ -11,9 +11,9 @@ const Square = (props) => {
                 background: `${props.color}`,
                 color: 'white',
                 padding: 20,
-                margin: 20
-            }}>
-                <h1>{props.title}</h1>
+                margin: 20,
+            }} >
+                <div><h1>{props.title}</h1></div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <div style={{ fontWeight: 'bold' }}>{props.description}</div>
                     <FaYoutube style={{ fontSize: 128 }} />
