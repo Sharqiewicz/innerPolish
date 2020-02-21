@@ -56,5 +56,12 @@ main{
 
     #layout_image{
         background-position-x: 45% !important;
+        background-attachment: unset !important;
+    }
+}
+
+@media(max-width: 1150px){
+    #layout_image{
+        background-position-x: 50% !important;
     }
 }

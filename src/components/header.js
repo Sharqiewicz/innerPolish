@@ -33,13 +33,13 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h3>
       <div>
-        <a>
+        <a href="https://www.youtube.com/channel/UCLhtNISpX1kQVB7vfgL9Cpw">
           <FaYoutube />
         </a>
-        <a>
+        <a href="https://www.youtube.com/channel/UCLhtNISpX1kQVB7vfgL9Cpw">
           <FaPodcast />
         </a>
-        <a>
+        <a href="https://www.youtube.com/channel/UCLhtNISpX1kQVB7vfgL9Cpw">
           <FaSpotify />
         </a>
       </div>
