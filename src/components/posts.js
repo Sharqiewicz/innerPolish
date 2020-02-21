@@ -6,19 +6,18 @@ import Post from './post.js';
 const Posts = () => {
     const data = useStaticQuery(graphql`
         {
-            innerpolish {
-                movies {
+            innerpolishcms {
+                videos {
                     title,
-                        language,
-                        link
+                    language,
+                    videoid
                 }
             }
         }
     `)
-
-    const posts = data.innerpolish.movies;
+    const posts = data.innerpolishcms.videos;
     const showposts = posts.map(element => (
-        <Post title={element.title} language={element.language} link={element.link} />
+        <Post title={element.title} language={element.language} videoid={element.videoid} />
     ))
 
     return (

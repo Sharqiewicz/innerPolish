@@ -31,11 +31,11 @@ module.exports = {
       resolve: "gatsby-source-graphql",
       options: {
         // Arbitrary name for the remote schema Query type
-        typeName: "INNERPOLISH",
+        typeName: "INNERPOLISHCMS",
         // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
-        fieldName: "innerpolish",
+        fieldName: "innerpolishcms",
         // Url to query from
-        url: "https://api-euwest.graphcms.com/v1/ck6w5h36nbl3y01dhh1kedb5m/master",
+        url: "https://api-euwest.graphcms.com/v1/ck6w94h9f2n3c01fm87z5cjhx/master",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
