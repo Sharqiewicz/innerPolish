@@ -1,0 +1,14 @@
+/* Header */
+header a {
+  margin: 0 10px;
+  color: white;
+  font-size: 24px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header a:hover {
+  color: #ddd;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
