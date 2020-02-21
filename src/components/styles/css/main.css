@@ -24,6 +24,10 @@ main {
   padding: 5vh 0 0 0;
 }
 
+main h1:first-of-type {
+  padding: 0 0 20px 0;
+}
+
 main a div:hover {
   -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
