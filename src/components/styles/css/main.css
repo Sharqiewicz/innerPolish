@@ -33,4 +33,23 @@ main a div {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
+@media (min-width: 1000px) {
+  .square {
+    width: 390px;
+  }
+}
+
+@media (max-width: 999px) {
+  .square {
+    width: 300px;
+    font-size: 14px;
+  }
+  .square h1 {
+    font-size: 18px;
+  }
+  #layout_image {
+    background-position-x: 45% !important;
+  }
+}
 /*# sourceMappingURL=main.css.map */

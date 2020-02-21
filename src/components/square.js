@@ -4,15 +4,16 @@ import { FaYoutube } from 'react-icons/fa';
 
 
 const Square = (props) => {
+    let prelinker = props.title.toLowerCase().trim();
+    let linker = prelinker.replace(" ", "");
     return (
-        <Link to='/videos/'>
+        <Link to={`/${linker}/`}>
             <div style={{
-                width: 390,
                 background: `${props.color}`,
                 color: 'white',
                 padding: 20,
                 margin: 20,
-            }} >
+            }} className="square">
                 <div><h1>{props.title}</h1></div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <div style={{ fontWeight: 'bold' }}>{props.description}</div>
@@ -20,7 +21,7 @@ const Square = (props) => {
                 </div>
 
             </div>
-        </Link>
+        </Link >
     )
 }
 

@@ -31,13 +31,12 @@ const Layout = ({ children, image }) => {
       {
         image != undefined ? <div style={{
           backgroundImage: `url("${image}")`,
-          backgrounPosition: 'top center',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundAttachment: 'fixed',
-          backgroundPositionY: '80%',
+          backgroundPositionY: '70%',
           height: 600,
-        }}>
+        }} id="layout_image">
         </div> : <div></div>
       }
       <div
