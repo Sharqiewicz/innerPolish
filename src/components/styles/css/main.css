@@ -1,7 +1,15 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+* a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Header */
 header a {
   margin: 0 10px;
-  color: white;
   font-size: 24px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -10,5 +18,42 @@ header a {
 header a:hover {
   color: #ddd;
   cursor: pointer;
+}
+
+main {
+  padding: 5vh 0 0 0;
+}
+
+main h1:first-of-type {
+  padding: 0 0 20px 0;
+}
+
+main a div:hover {
+  -webkit-transform: translateY(-5%);
+          transform: translateY(-5%);
+}
+
+main a div {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (min-width: 1000px) {
+  .square {
+    width: 390px;
+  }
+}
+
+@media (max-width: 999px) {
+  .square {
+    width: 300px;
+    font-size: 14px;
+  }
+  .square h1 {
+    font-size: 18px;
+  }
+  #layout_image {
+    background-position-x: 45% !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
