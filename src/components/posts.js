@@ -18,7 +18,7 @@ const Posts = () => {
 
     const posts = data.innerpolish.movies;
     const showposts = posts.map(element => (
-        <Post title={element.title} />
+        <Post title={element.title} language={element.language} link={element.link} />
     ))
 
     return (
