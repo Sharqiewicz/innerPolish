@@ -1,8 +1,7 @@
 import React from 'react';
 
 const Post = (props) => {
-    console.log(props)
-    const link = `http://www.youtube.com/embed/${props.videoid}`;
+    const link = `https://www.youtube.com/embed/${props.videoid}`;
     return (
         <div key={props.title} style={{ width: 430 }}>
             <h3>{props.title}</h3>
