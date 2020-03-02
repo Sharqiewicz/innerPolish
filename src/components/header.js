@@ -1,4 +1,4 @@
-import { FaYoutube, FaPodcast, FaSpotify } from 'react-icons/fa';
+import { FaYoutube, FaPodcast, FaFacebook } from 'react-icons/fa';
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
@@ -39,8 +39,8 @@ const Header = ({ siteTitle }) => (
         <a href="https://www.youtube.com/channel/UCLhtNISpX1kQVB7vfgL9Cpw">
           <FaPodcast />
         </a>
-        <a href="https://www.youtube.com/channel/UCLhtNISpX1kQVB7vfgL9Cpw">
-          <FaSpotify />
+        <a href="https://www.facebook.com/SharqizSCI">
+          <FaFacebook />
         </a>
       </div>
     </div>

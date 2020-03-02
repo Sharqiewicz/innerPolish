@@ -24,7 +24,7 @@ const IndexPage = () => {
   const squares = data.innerpolishcms.squares;
 
   const showsquares = squares.map(element => (
-    <Square title={element.title} description={element.description} color={element.color} image={element.image} />
+    <Square title={element.title} description={element.description} color={element.color} icon={element.icon} />
   ))
 
   return (
