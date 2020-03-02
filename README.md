@@ -1,3 +1,19 @@
+# InnerPolish
+It is a website created with gatsby, it was my the great training with that technology.
+With this project I wanted to learn Gatsby, GraphQL, GraphCMS ( Headless CMS )
+
+### Technologies
+
+* [React] 
+* [Gatsby] 
+* [Graphql]
+* [GraphCMS]
+* [GIT]
+
+
+
+## Gatsby template auto generated stuff ##
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
